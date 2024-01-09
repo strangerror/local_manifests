@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+  
+  <!-- RU translation -->
+  <project name="ShevT/android_packages_resources_translations" path="packages/resources/translations" remote="gitlab" revision="crdroid-14.0" />
+
+</manifest>
