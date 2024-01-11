@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="strangerror"
+          fetch="https://github.com/strangerror"
+          sync-c="true"
+          sync-j="6" />
+    
+  <!-- Kernel Trees -->
+  <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="strangerror" revision="13" />
+  
+  <!-- Device Trees -->
+  <project name="android_device_xiaomi_willow" path="device/xiaomi/willow" remote="strangerror" revision="14" />
+
+  <!-- Vendor Trees -->
+  <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="strangerror" revision="14" />
+  
+</manifest>
