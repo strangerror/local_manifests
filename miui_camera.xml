@@ -2,8 +2,7 @@
 <manifest>
   <remote name="garry-rogov"
           fetch="https://github.com/garry-rogov"
-          sync-c="true"
-          sync-j="6" />
+  />
   
   <!-- MiuiCamera --> 
     <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="garry-rogov" revision="arrow-12.0-a3" />
